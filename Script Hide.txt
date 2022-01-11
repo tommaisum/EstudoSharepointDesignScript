@@ -1,0 +1,22 @@
+e-mail= admin@TEFeasyproject.onmicrosoft.com
+senha= tefeasy138@24
+URL= https://tefeasyproject.sharepoint.com/sites/pwa-homolog
+
+------------------------------------------------------------------------------------------------------------------------------
+https://tefeasyproject.sharepoint.com/sites/pwa-homolog/
+------------------------------------------------------------------------------------------------------------------------------
+
+
+<script src="https://code.jquery.com/jquery-1.12.4.min.js" type="text/javascript"></script>
+<script type="text/javascript">
+$(function(){
+    $(".ms-standardheader:contains('% Complete')").closest("tr").hide();
+    $(".ms-standardheader:contains('Task Status')").closest("tr").hide();
+    $(".ms-standardheader:contains('Start Date')").closest("tr").hide();
+    $(".ms-standardheader:contains('Due Date')").closest("tr").hide();
+    $(".ms-standardheader:contains('Predecessors')").closest("tr").hide();
+   $(".ms-standardheader:contains('Priority')").closest("tr").hide();
+   $(".ms-standardheader:contains('Related Items')").closest("tr").hide();
+   $(".ms-standardheader:contains('Task Outcome')").closest("tr").hide();
+})
+</script>
